@@ -1,0 +1,39 @@
+{
+  "name": "crypto-apis",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Crypto wallet integration with Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "crypto",
+    "wallet",
+    "nodejs"
+  ],
+  "author": "Ali Hamza",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.8.3",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.2.1",
+    "geoip-lite": "^1.4.10",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment-timezone": "^0.5.47",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "ua-parser-js": "^2.0.3"
+  }
+}

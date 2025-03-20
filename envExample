@@ -1,0 +1,15 @@
+# MongoDB Credentials
+MONGO_PROTOCOL=mongodb+srv
+MONGO_USER=yourUsername
+MONGO_PASSWORD=yourPassword
+
+# MongoDB Host & Database
+MONGO_HOST=yourCluster.mongodb.net
+MONGO_DB=yourDatabaseName
+
+# MongoDB Options
+MONGO_OPTIONS=retryWrites=true&w=majority
+MONGO_APP_NAME=yourAppName
+
+# Application Port
+PORT=3000
